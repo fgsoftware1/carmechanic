@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using FMOD.Studio;
 using FMODUnity;
 using UnityEngine;
@@ -24,6 +25,11 @@ public class Lift : MonoBehaviour
     private void OnDestroy()
     {
         liftInstance.release();
+    }
+
+    private void OnMouseOver()
+    {
+        Cursor.SetCursor(AssetBundlesManager.handCursor, Vector2.one, CursorMode.Auto);
     }
 
     private void OnMouseDown()

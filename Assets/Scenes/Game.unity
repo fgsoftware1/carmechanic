@@ -386,6 +386,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 9
   m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
   m_RenderPostProcessing: 1
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
@@ -445,7 +446,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh24760
+  m_Name: pb_Mesh72826
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -845,7 +846,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eee35b0942191e9438239e985c6389b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controller: {fileID: 1093104662}
   moveSpeed: 5
 --- !u!143 &1093104662
 CharacterController:
@@ -951,7 +951,6 @@ GameObject:
   - component: {fileID: 1282145222}
   - component: {fileID: 1282145224}
   - component: {fileID: 1282145223}
-  - component: {fileID: 1282145225}
   - component: {fileID: 1282145226}
   - component: {fileID: 1282145221}
   m_Layer: 0
@@ -1016,20 +1015,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8f253e6b0f0c3543aa1db248ba830c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1282145225
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1282145220}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af7c26ae3bfae434497ff50c14c82b4c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fpCamera: {fileID: 1636772247}
-  tpCamera: {fileID: 643334563}
 --- !u!114 &1282145226
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11339,6 +11324,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_MoveRepeatDelay: 0.5
   m_MoveRepeatRate: 0.1
+  m_XRTrackingOrigin: {fileID: 0}
   m_ActionsAsset: {fileID: -944628639613478452, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
   m_PointAction: {fileID: 1054132383583890850, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
   m_MoveAction: {fileID: 3710738434707379630, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
@@ -11652,6 +11638,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 9
   m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
   m_RenderPostProcessing: 1
   m_Antialiasing: 0
   m_AntialiasingQuality: 2

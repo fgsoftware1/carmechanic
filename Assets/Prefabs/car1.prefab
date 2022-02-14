@@ -4198,7 +4198,6 @@ GameObject:
   - component: {fileID: 1179255354877531983}
   - component: {fileID: 1179255354877531968}
   - component: {fileID: 1179255354877531969}
-  - component: {fileID: 8665804728079156963}
   m_Layer: 0
   m_Name: DoorL
   m_TagString: Untagged
@@ -4289,22 +4288,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300024, guid: 8d3f1d2707bda1b4db09cb9819ad4fb4, type: 3}
---- !u!114 &8665804728079156963
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1179255354877531971}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 24ad9f31680fa4f448bd690bec63fdf1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  type: 6
-  disassemblyRequirements: []
-  assemblyRequirements: []
-  isTransparent: 0
 --- !u!1 &1179255354888879496
 GameObject:
   m_ObjectHideFlags: 0
@@ -4610,7 +4593,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1179255354979812156}
-  - component: {fileID: 1179255354979812157}
   m_Layer: 0
   m_Name: car1
   m_TagString: Untagged
@@ -4709,27 +4691,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1179255354979812157
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1179255354979812158}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4d30974bf68d61043b1572197db94cdc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SimulationType: 2
-  m_Gravity:
-    x: -0
-    y: -9.81
-    z: -0
-  m_SolverIterationCount: 4
-  m_EnableSolverStabilizationHeuristic: 0
-  m_MultiThreaded: 1
-  m_SynchronizeCollisionWorld: 1
 --- !u!1 &1179255355025930261
 GameObject:
   m_ObjectHideFlags: 0
@@ -5032,7 +4993,6 @@ GameObject:
   - component: {fileID: 1179255355131933712}
   - component: {fileID: 1179255355131933713}
   - component: {fileID: 1179255355131933714}
-  - component: {fileID: 3411497653090303286}
   m_Layer: 0
   m_Name: DoorR
   m_TagString: Untagged
@@ -5123,22 +5083,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300026, guid: 8d3f1d2707bda1b4db09cb9819ad4fb4, type: 3}
---- !u!114 &3411497653090303286
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1179255355131933716}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 24ad9f31680fa4f448bd690bec63fdf1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  type: 5
-  disassemblyRequirements: []
-  assemblyRequirements: []
-  isTransparent: 0
 --- !u!1 &1179255355145524713
 GameObject:
   m_ObjectHideFlags: 0

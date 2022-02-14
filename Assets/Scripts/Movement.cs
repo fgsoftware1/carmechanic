@@ -5,8 +5,6 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(CharacterController))]
 public class Movement : MonoBehaviour
 {
-    public static Camera playerCamera;
-    [SerializeField] private CharacterController controller;
     public float moveSpeed;
     private Vector2 m_Move;
 

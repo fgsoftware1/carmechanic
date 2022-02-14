@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.IO;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -13,7 +12,7 @@ public class MainPanel : MonoBehaviour
     public GameObject menu;
     public GameObject loadingScreen;
     public TMP_Text loading_object;
-    bool active;
+    private bool active;
 
     private void Start()
     {
@@ -27,11 +26,6 @@ public class MainPanel : MonoBehaviour
         menu.SetActive(false);
         loadingScreen.SetActive(true);
         StartCoroutine(LoadMainMenu(scene));
-
-        if (Application.platform == RuntimePlatform.LinuxEditor ||
-            Application.platform == RuntimePlatform.WindowsEditor ||
-            Application.platform == RuntimePlatform.OSXEditor)
-            Cursor.lockState = CursorLockMode.Locked;
     }
 
     public void Quit()
@@ -58,7 +52,7 @@ public class MainPanel : MonoBehaviour
                 active = true;
             else
                 active = false;
-                if(active)
-                    loadingScreen.SetActive(false);
+        if (active)
+            loadingScreen.SetActive(false);
     }
 }
